@@ -518,7 +518,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["tuberculosis.jpg"]
   },
   {
    "id": 3,
@@ -536,7 +536,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Gaps.jpg"]
   },
   {
    "id": 4,
@@ -554,7 +554,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["25 batch.jpg"]
   },
   {
    "id": 5,
@@ -572,7 +572,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["VOD.jpg"]
   },
   {
    "id": 6,
@@ -590,7 +590,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Olympiad.jpg"]
   },
   {
    "id": 7,
@@ -608,7 +608,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Untamed Project 2025.jpg"]
   },
   {
    "id": 8,
@@ -626,7 +626,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Rabies.jpg"]
   },
   {
    "id": 9,
@@ -644,7 +644,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Rec.jpg"]
   },
   {
    "id": 10,
@@ -662,7 +662,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["Bio.jpg"]
   },
   {
    "id": 11,
@@ -680,7 +680,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": ["arcgis.jpg"]
   }
  ],
  "news": [],
