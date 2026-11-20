@@ -500,7 +500,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": []
+   "certImages": [CARSIT.jpg]
   },
   {
    "id": 2,
@@ -822,7 +822,7 @@
    "id": "cgpa",
    "label": "CGPA",
    "source": "manual",
-   "value": "3.88",
+   "value": "3.80",
    "enabled": true,
    "prefix": "",
    "suffix": ""
@@ -1166,7 +1166,7 @@
  "aboutMe": {
   "title": "Hi, This is Arnob",
   "subtitle": "",
-  "description": "I am a veterinary student at Habiganj Agricultural University with a strong academic record and a keen interest in zoonotic disease control, especially rabies and related public health problems. I serve as President of the Animal Rescue & Welfare Association (CARE) at HAU, and I am building my skills in research methodology, data interpretation and international academic communication. I am also curious about quality control systems and modern laboratory and diagnostic technologies. My goal is to pursue higher studies and research abroad, with long-term plans in veterinary public health and evidence-based practice.",
+  "description": "I am a veterinary student at Habiganj Agricultural University with a strong academic record and a keen interest in zoonotic disease control, especially rabies and related public health problems. I serve as President of the  Animal Saviors of Bangladesh (ASB) at HAU, and I am building my skills in research methodology, data interpretation and international academic communication. I am also curious about quality control systems and modern laboratory and diagnostic technologies. My goal is to pursue higher studies and research abroad, with long-term plans in veterinary public health and evidence-based practice.",
   "left": false
  },
  "globalStyles": {}
