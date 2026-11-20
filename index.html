@@ -211,7 +211,7 @@
     return '<section class="card" id="' + id + '"><div class="eyebrow">' + esc(eyebrow) + "</div><h2>" + esc(title) + "</h2>" + body + "</section>";
   }
 
-  var D = window.DATA || {};
+  var D = (typeof DATA !== "undefined" && DATA) ? DATA : {};
 
   // header
   document.getElementById("brandName").textContent = D.name || "";
