@@ -500,7 +500,7 @@
    "certMethod": "modal",
    "certStyle": "button",
    "certShape": "pill",
-   "certImages": [CARSIT.jpg]
+   "certImages": ["CARSIT.jpg"]
   },
   {
    "id": 2,
