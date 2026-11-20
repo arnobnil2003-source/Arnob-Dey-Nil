@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b2a24">
+<title>Arnob Dey Nil | Academic Portfolio</title>
+<meta name="description" content="Academic portfolio of Arnob Dey Nil, veterinary student interested in rabies, epidemiology and antimicrobial resistance.">
+<style>
+  :root {
+    --bg: #07140f;
+    --nav: #0a1f18;
+    --card: #0d261e;
+    --side-a: #0f3d31;
+    --side-b: #0a5a46;
+    --text: #e7f3ee;
+    --muted: #9fb8ae;
+    --accent: #3ddc97;
+    --accent-2: #f2b84b;
+    --line: rgba(255, 255, 255, 0.10);
+    --chip: rgba(61, 220, 151, 0.12);
+  }
+  :root[data-theme="light"] {
+    --bg: #f3f8f5;
+    --nav: #ffffff;
+    --card: #ffffff;
+    --side-a: #e3f3ea;
+    --side-b: #c9eadb;
+    --text: #12251e;
+    --muted: #4d6a5f;
+    --accent: #0b8a5a;
+    --accent-2: #b97a05;
+    --line: rgba(0, 0, 0, 0.10);
+    --chip: rgba(11, 138, 90, 0.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+    min-height: 100vh;
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; font-weight: 600; line-height: 1.25; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /* top bar */
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--nav);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    max-width: 1280px; margin: 0 auto; padding: 10px 20px;
+    display: flex; align-items: center; gap: 16px;
+  }
+  .brand { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .brand img { width: 46px; height: 46px; border-radius: 12px; object-fit: cover; background: var(--side-b); }
+  .brand b { display: block; font-family: Georgia, serif; font-size: 1.1rem; }
+  .brand span { display: block; font-size: 0.85rem; color: var(--muted); font-family: Georgia, serif; }
+  nav { margin-left: auto; display: flex; gap: 4px; flex-wrap: wrap; justify-content: flex-end; }
+  nav a {
+    color: var(--text); font-size: 0.9rem; padding: 6px 12px; border-radius: 999px;
+  }
+  nav a:hover { background: var(--chip); text-decoration: none; }
+  nav a.active { background: var(--text); color: var(--bg); }
+  #themeBtn {
+    background: var(--chip); border: 1px solid var(--line); color: var(--text);
+    width: 40px; height: 40px; border-radius: 12px; cursor: pointer; font-size: 1.1rem;
+  }
+
+  /* layout */
+  main {
+    max-width: 1280px; margin: 0 auto; padding: 24px 20px 60px;
+    display: grid; grid-template-columns: 340px 1fr; gap: 24px; align-items: start;
+  }
+  aside {
+    position: sticky; top: 92px;
+    background: linear-gradient(160deg, var(--side-a), var(--side-b));
+    border: 1px solid var(--line); border-radius: 24px; padding: 24px; text-align: center;
+  }
+  .photo {
+    width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 22px;
+    border: 3px solid var(--accent); background: rgba(0,0,0,0.2);
+  }
+  .badges { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin: 16px 0 10px; }
+  .badge {
+    font-size: 0.78rem; padding: 4px 12px; border-radius: 999px;
+    background: rgba(0,0,0,0.25); border: 1px solid var(--line);
+  }
+  :root[data-theme="light"] .badge { background: rgba(255,255,255,0.7); }
+  aside h1 { font-size: 1.9rem; margin-bottom: 6px; }
+  .headline { font-size: 0.95rem; color: var(--muted); font-family: Georgia, serif; margin-bottom: 14px; }
+  .meta { font-size: 0.9rem; text-align: left; display: grid; gap: 6px; margin-bottom: 16px; }
+  .meta div { word-break: break-word; }
+  .links { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .links a {
+    font-size: 0.8rem; padding: 6px 12px; border-radius: 10px;
+    background: rgba(0,0,0,0.22); border: 1px solid var(--line); color: var(--text);
+  }
+  :root[data-theme="light"] .links a { background: rgba(255,255,255,0.75); }
+  .links a:hover { border-color: var(--accent); text-decoration: none; }
+
+  /* cards */
+  .content { display: grid; gap: 22px; min-width: 0; }
+  section.card {
+    background: var(--card); border: 1px solid var(--line); border-radius: 24px; padding: 26px 28px;
+  }
+  .eyebrow { font-size: 0.8rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); }
+  section.card h2 { font-size: 1.7rem; margin: 2px 0 16px; padding-bottom: 12px; border-bottom: 1px solid var(--line); }
+  .about p + p { margin-top: 12px; }
+
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .chip {
+    font-size: 0.82rem; padding: 4px 12px; border-radius: 999px;
+    background: var(--chip); border: 1px solid var(--line);
+  }
+
+  /* timeline */
+  .tl { list-style: none; position: relative; padding-left: 26px; }
+  .tl::before { content: ""; position: absolute; left: 6px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
+  .tl li { position: relative; margin-bottom: 22px; }
+  .tl li:last-child { margin-bottom: 0; }
+  .tl li::before {
+    content: ""; position: absolute; left: -26px; top: 7px; width: 14px; height: 14px;
+    border-radius: 50%; background: var(--accent); border: 3px solid var(--card);
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+  .years { font-size: 0.85rem; color: var(--accent-2); font-weight: 600; }
+  .tl h3 { font-size: 1.2rem; }
+  .place { font-weight: 600; font-size: 0.95rem; }
+  .detail { color: var(--muted); font-size: 0.92rem; margin-top: 4px; }
+
+  /* skills, pubs, projects */
+  .skill-group + .skill-group { margin-top: 16px; }
+  .skill-group h3 { font-size: 1rem; font-family: inherit; color: var(--muted); font-weight: 600; margin-bottom: 8px; }
+  .pub { padding: 14px 0; border-top: 1px solid var(--line); }
+  .pub:first-child { border-top: 0; padding-top: 0; }
+  .pub .authors, .pub .venue { color: var(--muted); font-size: 0.9rem; }
+  .status { display: inline-block; margin-top: 6px; font-size: 0.78rem; padding: 2px 10px; border-radius: 999px; background: var(--chip); color: var(--accent); }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .proj { border: 1px solid var(--line); border-radius: 16px; padding: 16px; background: var(--chip); }
+  .proj h3 { font-size: 1.1rem; margin-bottom: 6px; }
+
+  footer { text-align: center; color: var(--muted); font-size: 0.85rem; padding: 0 20px 40px; }
+
+  /* mobile */
+  @media (max-width: 900px) {
+    main { grid-template-columns: 1fr; }
+    aside { position: static; }
+    nav { display: none; }
+    .bar { justify-content: space-between; }
+    #themeBtn { margin-left: auto; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="bar">
+    <div class="brand">
+      <img id="brandImg" alt="" onerror="this.style.visibility='hidden'">
+      <div><b id="brandName"></b><span id="brandSub"></span></div>
+    </div>
+    <nav id="nav"></nav>
+    <button id="themeBtn" aria-label="Toggle dark and light theme" title="Toggle theme">&#9728;</button>
+  </div>
+</header>
+
+<main>
+  <aside id="side"></aside>
+  <div class="content" id="content"></div>
+</main>
+
+<footer id="foot"></footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  // small helpers
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function safeUrl(u) {
+    u = String(u || "").trim();
+    if (!u) return "";
+    if (/^(javascript|data|vbscript):/i.test(u)) return "";
+    return u;
+  }
+  function has(a) { return Array.isArray(a) && a.length > 0; }
+  function chips(list) {
+    return has(list) ? '<div class="chips">' + list.map(function (t) { return '<span class="chip">' + esc(t) + "</span>"; }).join("") + "</div>" : "";
+  }
+  function timeline(list) {
+    return '<ul class="tl">' + list.map(function (e) {
+      var pu = safeUrl(e.placeUrl);
+      var place = pu ? '<a href="' + esc(pu) + '" target="_blank" rel="noopener">' + esc(e.place) + "</a>" : esc(e.place);
+      return "<li>" +
+        '<div class="years">' + esc(e.years) + "</div>" +
+        "<h3>" + esc(e.title) + "</h3>" +
+        '<div class="place">' + place + "</div>" +
+        (e.detail ? '<div class="detail">' + esc(e.detail) + "</div>" : "") +
+        chips(e.tags) + "</li>";
+    }).join("") + "</ul>";
+  }
+  function card(id, eyebrow, title, body) {
+    return '<section class="card" id="' + id + '"><div class="eyebrow">' + esc(eyebrow) + "</div><h2>" + esc(title) + "</h2>" + body + "</section>";
+  }
+
+  var D = window.DATA || {};
+
+  // header
+  document.getElementById("brandName").textContent = D.name || "";
+  document.getElementById("brandSub").textContent = D.subtitle || "";
+  var bi = document.getElementById("brandImg");
+  if (D.photo) bi.src = D.photo; else bi.style.display = "none";
+
+  // sidebar
+  var linkHtml = (D.links || []).map(function (l) {
+    var u = safeUrl(l.url);
+    return u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(l.label) + "</a>" : "";
+  }).join("");
+  var emailHtml = D.email ? '<div>&#9993; <a href="mailto:' + esc(D.email) + '">' + esc(D.email) + "</a></div>" : "";
+  document.getElementById("side").innerHTML =
+    (D.photo ? '<img class="photo" src="' + esc(D.photo) + '" alt="' + esc(D.name) + '" onerror="this.style.display=\'none\'">' : "") +
+    '<div class="badges">' + (D.badges || []).map(function (b) { return '<span class="badge">' + esc(b) + "</span>"; }).join("") + "</div>" +
+    "<h1>" + esc(D.name) + "</h1>" +
+    '<p class="headline">' + esc(D.headline) + "</p>" +
+    '<div class="meta">' + (D.location ? "<div>&#9906; " + esc(D.location) + "</div>" : "") + emailHtml + "</div>" +
+    '<div class="links">' + linkHtml + "</div>";
+
+  // sections (empty lists are skipped automatically)
+  var sections = [];
+  if (has(D.about) || has(D.interests)) {
+    sections.push({ id: "about", nav: "About", html:
+      '<section class="card about" id="about"><div class="eyebrow">Hi, this is ' + esc((D.name || "").split(" ")[0]) + "</div><h2>About me</h2>" +
+      (D.about || []).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("") +
+      (has(D.interests) ? '<div class="eyebrow" style="margin-top:18px">Research interests</div>' + chips(D.interests) : "") + "</section>" });
+  }
+  if (has(D.education)) sections.push({ id: "education", nav: "Education", html: card("education", "Academic background", "Education", timeline(D.education)) });
+  if (has(D.experience)) sections.push({ id: "experience", nav: "Experience", html: card("experience", "Research and training", "Experience", timeline(D.experience)) });
+  if (has(D.skills)) {
+    sections.push({ id: "skills", nav: "Skills", html: card("skills", "What I work with", "Skills",
+      D.skills.map(function (g) { return '<div class="skill-group"><h3>' + esc(g.group) + "</h3>" + chips(g.items) + "</div>"; }).join("")) });
+  }
+  if (has(D.publications)) {
+    sections.push({ id: "publications", nav: "Publications", html: card("publications", "Scholarly output", "Publications",
+      D.publications.map(function (p) {
+        var u = safeUrl(p.url);
+        var t = u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(p.title) + "</a>" : esc(p.title);
+        return '<div class="pub"><h3>' + t + '</h3><div class="authors">' + esc(p.authors) + '</div><div class="venue">' + esc(p.venue) + (p.year ? " (" + esc(p.year) + ")" : "") + "</div>" +
+          (p.status ? '<span class="status">' + esc(p.status) + "</span>" : "") + "</div>";
+      }).join("")) });
+  }
+  if (has(D.projects)) {
+    sections.push({ id: "projects", nav: "Projects", html: card("projects", "Selected work", "Projects",
+      '<div class="grid">' + D.projects.map(function (p) {
+        var u = safeUrl(p.url);
+        return '<div class="proj"><h3>' + esc(p.title) + '</h3><div class="detail">' + esc(p.description) + "</div>" + chips(p.tags) +
+          (u ? '<div style="margin-top:10px"><a href="' + esc(u) + '" target="_blank" rel="noopener">View project</a></div>' : "") + "</div>";
+      }).join("") + "</div>") });
+  }
+  if (has(D.awards)) {
+    sections.push({ id: "awards", nav: "Awards", html: card("awards", "Recognition", "Awards", timeline(D.awards.map(function (a) {
+      return { years: a.year, title: a.title, place: "", detail: a.detail };
+    }))) });
+  }
+
+  document.getElementById("content").innerHTML = sections.map(function (s) { return s.html; }).join("");
+  var nav = document.getElementById("nav");
+  nav.innerHTML = sections.map(function (s) { return '<a href="#' + s.id + '">' + esc(s.nav) + "</a>"; }).join("");
+  document.getElementById("foot").textContent = "© " + new Date().getFullYear() + " " + (D.name || "");
+  document.title = (D.name || "Portfolio") + " | Academic Portfolio";
+
+  // highlight current section in nav
+  var links = nav.querySelectorAll("a");
+  if ("IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) {
+          links.forEach(function (a) { a.classList.toggle("active", a.getAttribute("href") === "#" + en.target.id); });
+        }
+      });
+    }, { rootMargin: "-30% 0px -60% 0px" });
+    sections.forEach(function (s) { var el = document.getElementById(s.id); if (el) io.observe(el); });
+  }
+
+  // theme toggle (remembered in the browser when allowed)
+  var root = document.documentElement;
+  var btn = document.getElementById("themeBtn");
+  try { var saved = localStorage.getItem("theme"); if (saved) root.setAttribute("data-theme", saved); } catch (e) {}
+  btn.addEventListener("click", function () {
+    var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+    root.setAttribute("data-theme", next);
+    try { localStorage.setItem("theme", next); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>
