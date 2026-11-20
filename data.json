@@ -1,0 +1,1168 @@
+{
+ "profile": {
+  "name": "Arnob Dey Nil",
+  "headerTitle": "Veterinary Student",
+  "title": "B.Sc. in Vet Science & A.H.",
+  "position": "President, Animal Rescue & Welfare Association (CARE), HAU",
+  "institution": "Habiganj Agricultural University",
+  "tagline": "Aspiring M.Sc. researcher | One Health & Epidemiology",
+  "cvUrl": "Arnob_Dey_Nil_Professional_CV.pdf",
+  "avatarUrl": "images/profile.jpg",
+  "yearsExperience": "",
+  "bio": "",
+  "researchInterests": "",
+  "researchPhilosophy": "",
+  "currentResearch": "",
+  "socialLinks": [
+   {
+    "id": 1,
+    "name": "Email",
+    "url": "mailto:arnobnil2003@gmail.com"
+   },
+   {
+    "id": 2,
+    "name": "ORCID",
+    "url": "https://orcid.org/0009-0007-9798-2428"
+   },
+   {
+    "id": 3,
+    "name": "LinkedIn",
+    "url": "https://www.linkedin.com/in/arnobdeynil"
+   }
+  ],
+  "focusTags": [
+   {
+    "id": 1,
+    "text": "Rabies & One Health",
+    "icon": "fas fa-shield-virus",
+    "color": "teal"
+   },
+   {
+    "id": 2,
+    "text": "Epidemiology",
+    "icon": "fas fa-chart-line",
+    "color": "blue"
+   },
+   {
+    "id": 3,
+    "text": "Antimicrobial Resistance",
+    "icon": "fas fa-bacteria",
+    "color": "purple"
+   },
+   {
+    "id": 4,
+    "text": "Parasitology",
+    "icon": "fas fa-bug",
+    "color": "amber"
+   }
+  ],
+  "avatarShape": "square",
+  "institutionUrl": "",
+  "institutionLink": "link",
+  "address": "Habiganj Agricultural University, Habiganj, Bangladesh",
+  "hero": {
+   "showTree": false,
+   "photoPos": {
+    "desktop": "left",
+    "mobile": "top"
+   },
+   "align": {
+    "desktop": "center",
+    "mobile": "center"
+   },
+   "nameSize": 0,
+   "nameColor": "",
+   "posSize": 0,
+   "posColor": "",
+   "bioSize": 0,
+   "bioColor": "",
+   "bgType": "gradient",
+   "bgColor": "#FFFFFF",
+   "bgGradient": "forest",
+   "bgImage": "",
+   "overlay": 0,
+   "minHeight": 0,
+   "padTop": 0,
+   "padBottom": 0,
+   "showTagline": true,
+   "showInstitution": true,
+   "showAddress": true,
+   "showEmail": true,
+   "showKeywords": true,
+   "showSocial": true,
+   "showCv": true,
+   "slide": true,
+   "photoShape": {
+    "desktop": "",
+    "mobile": ""
+   },
+   "styles": {
+    "photo": {
+     "shadow": {
+      "desktop": "soft",
+      "mobile": "soft"
+     },
+     "width": {
+      "desktop": "240",
+      "mobile": "190"
+     }
+    },
+    "name": {
+     "opacity": {
+      "desktop": "",
+      "mobile": ""
+     },
+     "size": {
+      "desktop": "40",
+      "mobile": "40"
+     },
+     "align": {
+      "desktop": "center",
+      "mobile": "center"
+     }
+    },
+    "position": {
+     "align": {
+      "desktop": "center",
+      "mobile": "center"
+     }
+    },
+    "institution": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     }
+    },
+    "address": {
+     "align": {
+      "desktop": "center",
+      "mobile": "center"
+     }
+    },
+    "socials": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     }
+    },
+    "socialLinks": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     }
+    },
+    "cv": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     }
+    }
+   },
+   "kw": {
+    "showIcon": true,
+    "layout": {
+     "desktop": "center",
+     "mobile": "center"
+    }
+   }
+  },
+  "email": "arnobnil2003@gmail.com",
+  "contactIntro": "",
+  "contactSubject": "",
+  "contactNameLabel": "Contact Me",
+  "contactEmailLabel": "",
+  "contactMsgLabel": "",
+  "contactSendLabel": "",
+  "contactSuccessMsg": ""
+ },
+ "pubCategories": [
+  {
+   "id": "all",
+   "label": "All"
+  },
+  {
+   "id": "ongoing",
+   "label": "Research Participation"
+  },
+  {
+   "id": "academic",
+   "label": "Academic Projects"
+  }
+ ],
+ "galleryAlbums": [
+  "All Photos"
+ ],
+ "education": [
+  {
+   "id": 1,
+   "degree": "B.Sc. in Vet Science & A.H.",
+   "institution": "Habiganj Agricultural University",
+   "period": "2021 – Present",
+   "cgpa": "3.880",
+   "description": "Faculty of Veterinary Medicine and Animal Science, Habiganj, Bangladesh.",
+   "institutionUrl": "",
+   "institutionLink": "link"
+  },
+  {
+   "id": 2,
+   "degree": "Higher Secondary School Certificate (HSC)",
+   "institution": "Comilla Victoria Govt. College",
+   "period": "2020",
+   "cgpa": "",
+   "description": "Group: Science. GPA 5.0. Comilla, Bangladesh.",
+   "institutionUrl": "",
+   "institutionLink": "link"
+  },
+  {
+   "id": 3,
+   "degree": "Secondary School Certificate (SSC)",
+   "institution": "Comilla Zilla School",
+   "period": "2018",
+   "cgpa": "",
+   "description": "Group: Science. GPA 5.0. Comilla, Bangladesh.",
+   "institutionUrl": "",
+   "institutionLink": "link"
+  }
+ ],
+ "skills": {
+  "category1": {
+   "title": "Research & Data",
+   "subtitle": "Methods, analysis and data collection",
+   "bullets": [
+    "[bullet] Research Competencies: Literature search, data extraction, methodology, referencing, basic data analysis.",
+    "[bullet] Statistical & Data Analysis Tools: SPSS (Basic), Microsoft Excel (Basic).",
+    "[bullet] GIS & Mapping: ArcGIS (Basic).",
+    "[bullet] Data Collection Platforms: KoboToolbox, Google Forms."
+   ],
+   "icon": "",
+   "color": "",
+   "bulletStyle": "bullet",
+   "chip": {
+    "showIcon": true,
+    "shape": {
+     "mobile": "pill",
+     "desktop": "pill"
+    }
+   }
+  },
+  "category2": {
+   "title": "Laboratory & Tools",
+   "subtitle": "Parasitology bench work, software and documentation",
+   "bullets": [
+    "[bullet] Parasitology: Sedimentation, flotation, direct smear and McMaster egg counting.",
+    "[bullet] Research Software & AI Tools: Consensus AI, Paperpal, SciSpace, Gemini, Claude, QuillBot.",
+    "[bullet] Documentation & Presentation: Microsoft Word, PowerPoint, Canva.",
+    "[bullet] Referencing Tools: Mendeley, Zotero."
+   ],
+   "icon": "",
+   "color": "",
+   "bulletStyle": "bullet",
+   "chip": {
+    "showIcon": true,
+    "shape": {
+     "mobile": "pill",
+     "desktop": "pill"
+    }
+   }
+  }
+ },
+ "publications": [
+  {
+   "id": 1,
+   "title": "Total Parasite Count in the Gastrointestinal Tract of Ducks from Habiganj, Bangladesh",
+   "authors": "",
+   "journal": "Collected GI samples from ducks; sedimentation, flotation, direct smear and McMaster egg counting; assisted in parasite identification and data recording.",
+   "year": "January 2025 – June 2025",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 2,
+   "title": "Rabies Awareness and Prevention Education Among Children Under 15 Years of Age in the Asian Region: A One Health Perspective",
+   "authors": "",
+   "journal": "",
+   "year": "January 2025 – December 2026",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 3,
+   "title": "Knowledge, Attitude, and Practices of Smallholder Farmers on Antibiotic Use in Livestock and Poultry in Bangladesh",
+   "authors": "",
+   "journal": "Questionnaire survey of rural smallholder farmers, supported by a literature review.",
+   "year": "August 2025 – December 2026",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 4,
+   "title": "Current Advances in Bovine Mastitis: Etiology, Pathophysiology, Risk Factors, Diagnostic Innovations, Antimicrobial Resistance, and Therapeutic Approaches",
+   "authors": "",
+   "journal": "",
+   "year": "",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 5,
+   "title": "Structured versus Unstructured Tuberculosis Education: A Quasi-Experimental Study on Behavioural and KAP Outcomes",
+   "authors": "",
+   "journal": "",
+   "year": "",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 6,
+   "title": "Microbiome–Peripheral Nerve Axis in Regeneration: Emerging Roles of Microbial Metabolites and Bioelectrical Signaling",
+   "authors": "",
+   "journal": "",
+   "year": "",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 7,
+   "title": "A Volunteer-Driven Collaborative Research Model for Veterinary Students in Low- and Middle-Income Country Settings: A Mixed-Methods Descriptive Study from Bangladesh",
+   "authors": "",
+   "journal": "",
+   "year": "",
+   "category": "ongoing",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 8,
+   "title": "Anatomical Specimen Collection and Preservation (Equine)",
+   "authors": "",
+   "journal": "Collection and preservation of equine visceral organs for educational purposes under institutional supervision.",
+   "year": "6 hours",
+   "category": "academic",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 9,
+   "title": "Submission of a Heart Blood Circulation Model",
+   "authors": "",
+   "journal": "Cork-sheet background with syringe and saline pipe to visualize artery and vein.",
+   "year": "1 week",
+   "category": "academic",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 10,
+   "title": "Coprological Examination and Parasite Egg Count (Cattle)",
+   "authors": "",
+   "journal": "Sedimentation, direct smear, flotation and McMaster to estimate parasite load.",
+   "year": "2 hours",
+   "category": "academic",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 11,
+   "title": "Anatomical Specimen Collection and Preservation (Canine)",
+   "authors": "",
+   "journal": "Assisted in supervised specimen preparation for teaching, with organ removal and formalin preservation.",
+   "year": "4 hours",
+   "category": "academic",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  },
+  {
+   "id": 12,
+   "title": "Anatomical Specimen Collection and Preservation (Feline)",
+   "authors": "",
+   "journal": "Assisted in supervised specimen preparation for teaching, with organ removal and formalin preservation.",
+   "year": "3 hours",
+   "category": "academic",
+   "tags": "",
+   "isFirstAuthor": false,
+   "doi": "",
+   "journalUrl": "",
+   "journalLink": "link"
+  }
+ ],
+ "experience": [
+  {
+   "id": 1,
+   "institution": "Dr. Royal's Bird & Pet Care, Habiganj Sadar",
+   "institutionUrl": "",
+   "institutionLink": "link",
+   "badge": "",
+   "images": [],
+   "imagesLabel": "",
+   "certImages": [],
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certUrl": "",
+   "roles": [
+    {
+     "id": 11,
+     "title": "Trainee",
+     "startDate": "January 2023",
+     "endDate": "December 2023",
+     "description": "Gained hands-on experience in animal care."
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "institution": "Creative Coaching Center, Habiganj Sadar",
+   "institutionUrl": "",
+   "institutionLink": "link",
+   "badge": "",
+   "images": [],
+   "imagesLabel": "",
+   "certImages": [],
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certUrl": "",
+   "roles": [
+    {
+     "id": 21,
+     "title": "English Teacher",
+     "startDate": "January 2021",
+     "endDate": "December 2023",
+     "description": "Taught English language skills to students."
+    }
+   ]
+  }
+ ],
+ "awards": [
+  {
+   "id": 1,
+   "title": "2-day Masterclass on Research Paper Writing and Poster Assignment",
+   "org": "CARSIT (Centre for Applied Research in Software & IT)",
+   "period": "",
+   "meta": "Research",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 2,
+   "title": "Certificate of Appreciation: Literature Review and Evidence Synthesis for Tuberculosis KAP Study",
+   "org": "Nymat Global",
+   "period": "",
+   "meta": "Research",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 3,
+   "title": "How to Identify Research Gaps",
+   "org": "Researcher Academy (Elsevier)",
+   "period": "",
+   "meta": "Research",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 4,
+   "title": "The Research Methodology and Publication Program, 25th Batch",
+   "org": "",
+   "period": "August – December 2025",
+   "meta": "Research",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 5,
+   "title": "Bridging the Gap: Turning Medical Research into High-Impact Publications",
+   "org": "Voice of Doctors Research School",
+   "period": "June 28, 2025",
+   "meta": "Research",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 6,
+   "title": "1st Round, Agricultural Olympiad Season 4",
+   "org": "Bangladesh Agricultural Olympiad",
+   "period": "",
+   "meta": "Competition",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 7,
+   "title": "Untamed Campaign 2025",
+   "org": "IVSA_SCAW & IVSA_WEAN",
+   "period": "2025",
+   "meta": "Competition",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 8,
+   "title": "Rabies & One Health: From Basics to Cross-Sectoral Action to Stop Human Rabies Deaths",
+   "org": "WHO Neglected Tropical Diseases team",
+   "period": "",
+   "meta": "Rabies",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 9,
+   "title": "Rabies Educator Certificate",
+   "org": "Global Alliance for Rabies Control (GARC)",
+   "period": "",
+   "meta": "Rabies",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 10,
+   "title": "2nd Bioinformatics to Publication Workshop",
+   "org": "Innovative Research Center (IRC)",
+   "period": "",
+   "meta": "Training",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  },
+  {
+   "id": 11,
+   "title": "2-day ArcGIS Free Masterclass",
+   "org": "Res-Geo Lab",
+   "period": "September 9 & 11, 2025",
+   "meta": "Training",
+   "detail": "",
+   "orgUrl": "",
+   "orgLink": "link",
+   "certUrl": "",
+   "certLabel": "",
+   "certIcon": "",
+   "certColor": "",
+   "certMethod": "modal",
+   "certStyle": "button",
+   "certShape": "pill",
+   "certImages": []
+  }
+ ],
+ "news": [],
+ "gallery": [],
+ "references": [],
+ "sectionVisibility": {
+  "about": true,
+  "metrics": true,
+  "researchFocus": false,
+  "education": true,
+  "skills": true,
+  "publications": true,
+  "awards": true,
+  "experience": true,
+  "gallery": false,
+  "references": false,
+  "researchInterests": false,
+  "researchPhilosophy": false,
+  "currentResearch": false,
+  "recentUpdates": false,
+  "publicationFilters": true,
+  "publicationList": true,
+  "awardsList": true,
+  "experienceList": true,
+  "galleryAlbums": false,
+  "galleryList": false,
+  "referencesList": false,
+  "focusKeywords": false,
+  "recommendations": false
+ },
+ "sectionOrder": [
+  "about",
+  "aboutMe",
+  "education",
+  "experience",
+  "metrics",
+  "skills",
+  "publications",
+  "researchFocus",
+  "extracurricular",
+  "focusKeywords",
+  "awards",
+  "gallery",
+  "references",
+  "recommendations",
+  "contact"
+ ],
+ "customSections": [],
+ "siteText": {
+  "title": "Arnob Dey Nil | Academic Portfolio",
+  "navTitle": "Veterinary Student",
+  "navAbout": "About",
+  "navEducation": "Education",
+  "navSkills": "Skills",
+  "navPublications": "Research",
+  "navAwards": "Certifications",
+  "navExperience": "Experience",
+  "navGallery": "Gallery",
+  "navReferences": "References",
+  "cv": "CV",
+  "downloadCv": "CV",
+  "heroBadge": "",
+  "researchDirection": "Direction & Approach",
+  "researchFocus": "Recent Updates",
+  "researchInterests": "Research Interests",
+  "researchPhilosophy": "",
+  "currentWorking": "Currently Working On",
+  "recentUpdates": "Recent Updates",
+  "academicBackground": "Academic Background",
+  "academicCredentials": "Academic Credentials",
+  "coreExpertise": "Core Expertise",
+  "technicalCapabilities": "Technical Capabilities",
+  "scholarlyOutput": "Scholarly Output",
+  "publications": "Research & Academic Projects",
+  "searchPublications": "Search title or topic...",
+  "recognition": "Recognition",
+  "awards": "Training and Certification",
+  "careerTrajectory": "Career Trajectory",
+  "experience": "Work Experience",
+  "academicGallery": "Academic Gallery",
+  "gallery": "Fieldwork & Media Gallery",
+  "recommenders": "Recommenders",
+  "references": "Academic References",
+  "expandView": "Expand View",
+  "noMatching": "No matching items found.",
+  "doi": "DOI",
+  "firstAuthor": "First Author",
+  "published": "Published",
+  "underReview": "Under Review",
+  "manuscripts": "Research",
+  "firstAuthorMetric": "",
+  "yearsResearch": "",
+  "reference": "Reference",
+  "photo": "Photo",
+  "general": "General",
+  "allPhotos": "All Photos",
+  "rights": "All rights reserved.",
+  "viewAll": "View all",
+  "showFewer": "Show fewer",
+  "footerTitle": "Aspiring M.Sc. Researcher | One Health & Epidemiology",
+  "noGalleryPhotos": "No gallery photos in this album.",
+  "visitLink": "",
+  "cgpaLabel": "CGPA",
+  "seeAll": "See all",
+  "seeLess": "Show fewer",
+  "certificate": "Credentials",
+  "viewImages": "images",
+  "sendMessage": "Send me an email",
+  "recommendationsTitle": "Recommendations",
+  "testimonials": "What people say",
+  "navRecommendations": "Recommendations",
+  "contactTitle": "Contact Me",
+  "getInTouch": "Get in touch",
+  "navContact": "Contact",
+  "present": "Present",
+  "formError": "Please fill in every field with a valid email.",
+  "imageCounter": "Image {i} of {n}"
+ },
+ "metrics": [
+  {
+   "id": "projects",
+   "label": "Research Projects",
+   "source": "manual",
+   "value": "7",
+   "enabled": true,
+   "prefix": "",
+   "suffix": ""
+  },
+  {
+   "id": "certs",
+   "label": "Certifications",
+   "source": "manual",
+   "value": "11",
+   "enabled": true,
+   "prefix": "",
+   "suffix": ""
+  },
+  {
+   "id": "cgpa",
+   "label": "CGPA",
+   "source": "manual",
+   "value": "3.88",
+   "enabled": true,
+   "prefix": "",
+   "suffix": ""
+  }
+ ],
+ "typography": {
+  "about": "Inter",
+  "metrics": "Inter",
+  "researchFocus": "Inter",
+  "education": "Inter",
+  "skills": "Inter",
+  "publications": "Inter",
+  "awards": "Inter",
+  "experience": "Inter",
+  "gallery": "Inter",
+  "references": "Inter",
+  "researchInterests": "Inter",
+  "researchPhilosophy": "Inter",
+  "currentResearch": "Inter",
+  "recentUpdates": "Inter",
+  "publicationFilters": "Inter",
+  "publicationList": "Inter",
+  "awardsList": "Inter",
+  "experienceList": "Inter",
+  "galleryAlbums": "Inter",
+  "galleryList": "Inter",
+  "referencesList": "Inter"
+ },
+ "sectionCopies": [],
+ "layout": {
+  "sectionGap": 36,
+  "subGap": 14,
+  "pubCardOpacity": 60,
+  "twoCol": true,
+  "colLeft": 30,
+  "showIcon": false,
+  "showNum": false
+ },
+ "sectionSettings": {
+  "metrics": {
+   "countEasing": "expo"
+  },
+  "researchFocus": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  },
+  "education": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "weight": {
+      "desktop": "700",
+      "mobile": "700"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    },
+    "eduInst": {
+     "size": {
+      "desktop": "13",
+      "mobile": "13"
+     }
+    }
+   },
+   "thickLine": false,
+   "numMode": "auto",
+   "showToggle": false,
+   "bg": "mint"
+  },
+  "skills": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  },
+  "publications": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  },
+  "awards": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   },
+   "showToggle": false
+  },
+  "experience": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   },
+   "bg": "paper"
+  },
+  "gallery": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   },
+   "showToggle": false
+  },
+  "references": {
+   "collapsed": false,
+   "styles": {
+    "title": {
+     "align": {
+      "desktop": "justify",
+      "mobile": "justify"
+     },
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   },
+   "showToggle": false
+  },
+  "aboutMe": {
+   "styles": {
+    "title": {
+     "weight": {
+      "desktop": "600",
+      "mobile": "600"
+     },
+     "align": {
+      "desktop": "center",
+      "mobile": "center"
+     }
+    },
+    "body": {
+     "weight": {
+      "desktop": "500",
+      "mobile": "500"
+     }
+    }
+   }
+  },
+  "extracurricular": {
+   "styles": {
+    "title": {
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  },
+  "recommendations": {
+   "styles": {
+    "title": {
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  },
+  "contact": {
+   "styles": {
+    "title": {
+     "size": {
+      "desktop": "28",
+      "mobile": "28"
+     }
+    }
+   }
+  }
+ },
+ "pageBg": {
+  "light": {
+   "desktop": {
+    "type": "default"
+   },
+   "mobile": {
+    "type": ""
+   }
+  },
+  "dark": {
+   "desktop": {
+    "type": "default"
+   },
+   "mobile": {
+    "type": ""
+   }
+  }
+ },
+ "extracurricular": [
+  {
+   "id": 1,
+   "club": "Animal Rescue & Welfare Association (CARE), Habiganj Agricultural University",
+   "link": "",
+   "linkMode": "link",
+   "images": [],
+   "imagesLabel": "",
+   "roles": [
+    {
+     "id": 11,
+     "role": "President",
+     "period": "",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "club": "Bangladesh Radiant-self Community (BRC), Habiganj Chapter",
+   "link": "",
+   "linkMode": "link",
+   "images": [],
+   "imagesLabel": "",
+   "roles": [
+    {
+     "id": 21,
+     "role": "Community Leader",
+     "period": "",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "club": "IAAS Bangladesh, HAU",
+   "link": "",
+   "linkMode": "link",
+   "images": [],
+   "imagesLabel": "",
+   "roles": [
+    {
+     "id": 31,
+     "role": "Research & Project Development Officer (RPDO)",
+     "period": "",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "club": "American Society for Microbiology (ASM)",
+   "link": "",
+   "linkMode": "link",
+   "images": [],
+   "imagesLabel": "",
+   "roles": [
+    {
+     "id": 41,
+     "role": "Contributing Member",
+     "period": "",
+     "description": ""
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "club": "International Veterinary Students' Association (IVSA)",
+   "link": "",
+   "linkMode": "link",
+   "images": [],
+   "imagesLabel": "",
+   "roles": [
+    {
+     "id": 51,
+     "role": "General Member",
+     "period": "",
+     "description": ""
+    }
+   ]
+  }
+ ],
+ "recommendations": [],
+ "navStyle": {
+  "sticky": true,
+  "autoHide": false
+ },
+ "analytics": {
+  "goatcounter": "",
+  "showCount": false
+ },
+ "aboutMe": {
+  "title": "Hi, This is Arnob",
+  "subtitle": "",
+  "description": "I am a veterinary student at Habiganj Agricultural University with a strong academic record and a keen interest in zoonotic disease control, especially rabies and related public health problems. I serve as President of the Animal Rescue & Welfare Association (CARE) at HAU, and I am building my skills in research methodology, data interpretation and international academic communication. I am also curious about quality control systems and modern laboratory and diagnostic technologies. My goal is to pursue higher studies and research abroad, with long-term plans in veterinary public health and evidence-based practice.",
+  "left": false
+ },
+ "globalStyles": {}
+}
